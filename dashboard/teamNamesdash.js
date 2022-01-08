@@ -4,9 +4,6 @@ const team2nameRep = nodecg.Replicant('team2name', {defaultValue: "RED"});
 
 
 function setTeamNames(){
-    console.log()
     team1nameRep.value = document.getElementById('team1nameinput').value;
     team2nameRep.value = document.getElementById('team2nameinput').value;
-
-    console.log(team1nameRep)
 }
