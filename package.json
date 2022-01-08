@@ -1,0 +1,53 @@
+{
+  "name": "essential-score",
+  "version": "0.0.5",
+  "description": "a scoreboard for essentialsHud",
+  "homepage": "",
+  "author": {
+    "name": "Themicrocheeze",
+    "email": "themicrocheez@gmail.com",
+    "url": "themicrocheeze.neocities.org"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "ehud",
+        "title": "Ehud",
+        "file": "ehud.html",
+        "fullbleed": false,
+        "width": 4,
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "masterOverlay",
+        "title": "masterOverlay",
+        "file": "masterOverlay.html",
+        "fullbleed": false,
+        "width": 4,
+        "headerColor": "#444444"
+      }
+
+
+    ],
+    "graphics": [
+      {
+        "file": "scoarboard.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "private": true
+}

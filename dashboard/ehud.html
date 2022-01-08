@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<style>
+		.monospace {
+			font-family: monospace;
+		}
+
+
+		.scoreControls {
+			background-color: white;
+			color: black;
+			border: thistle;
+			border-radius: 10% 10% 10% 10%;
+
+			padding: 25px;
+		}
+
+		.buttonStyle1{
+			background-color: lightgreen;
+			padding: 15px 32px;
+		}
+		.buttonStyle2{
+			background-color: firebrick;
+		}
+
+		body{
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<p>Welcome to the Essentials Hud Scoreboard overlay, created by Themicrocheeze</p>
+
+
+	<div class="scoreControls">
+		<h3>SCORE CONTROLS</h3>
+		<button class="buttonStyle1" onclick="scoreTeam1()">ADD 1 to BLUE TEAM</button>
+		<button class="buttonStyle1" onclick="scoreTeam2()">ADD 1 to RED TEAM</button><br/>
+		<button class="buttonStyle1" onclick="minusScoreTeam1()">REMOVE 1 FROM BLUE TEAM</button>
+		<button class="buttonStyle1" onclick="minusScoreTeam2()">REMOVE 1 FROM RED TEAM</button><br/>
+		<button class="buttonStyle2" onclick="resetScoreboard()">RESET THE SCOREBOARD</button>
+	</div>
+
+
+	<script src="score.js"></script>
+
+	<script>
+		document.getElementById('path').textContent = `nodecg${window.location.pathname}`;
+
+		// You can access the NodeCG api anytime from the `window.nodecg` object
+		// Or just `nodecg` for short. Like this!:
+		nodecg.log.info('Here\'s an example of using NodeCG\'s logging API!');
+	</script>
+</body>
+</html>

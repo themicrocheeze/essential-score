@@ -1,0 +1,52 @@
+body {
+	font-family: Staatliches, sans-serif;
+}
+
+#scoreboard {
+	display: flex;
+	position: absolute;
+	top: 0px;
+    left: 50%;
+	margin-left: -82px;
+}
+
+#blu_team{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 863px;
+    height: 56px;
+    background-color: lightblue;
+    text-align: right;
+
+}
+
+#red_team{
+    position: absolute;
+    top: 0px;
+    left: 1057px;
+    width: 863px;
+    height: 56px;
+    background-color: firebrick;
+    text-align: left;
+    
+
+}
+
+.score {
+	color: white;
+    background-color: black;
+	font-size: 50px;
+
+	height: 56px;
+	width: 80px;
+
+	text-align: center;
+}
+
+
+.teamName{
+    font-size: 50px;
+    bottom: 54px;
+    align-items: center;
+}
