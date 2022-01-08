@@ -6,7 +6,6 @@ const team2nameEl = document.getElementById('red_team_name');
 
 team1nameRep.on('change', (newVal) => {
 	team1nameEl.innerHTML = newVal;
-	console.log('hellow there')
 })
 
 team2nameRep.on('change', (newVal) => {
