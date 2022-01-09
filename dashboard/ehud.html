@@ -42,10 +42,26 @@
 		<button class="buttonStyle1" onclick="minusScoreTeam1()">REMOVE 1 FROM BLUE TEAM</button>
 		<button class="buttonStyle1" onclick="minusScoreTeam2()">REMOVE 1 FROM RED TEAM</button><br/>
 		<button class="buttonStyle2" onclick="resetScoreboard()">RESET THE SCOREBOARD</button>
+
+
+		<br/>
+		<br/>
+		<hr/>
+		<br/>
+		<br/>
+
+		<h3>TEAM NAME CONTROLS</h3>
+        TEAM 1's NAME: <input id="team1nameinput" type="text">
+        <br/>
+		<br/>
+        TEAM 2's NAME: <input id="team2nameinput" type="text"> 
+		<br>
+		<button id="nameButton"  onclick="setTeamNames()">SET TEAM NAMES</button>
 	</div>
 
 
 	<script src="score.js"></script>
+	<script src="teamNamesdash.js"></script>
 
 	<script>
 		document.getElementById('path').textContent = `nodecg${window.location.pathname}`;

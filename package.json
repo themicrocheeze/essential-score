@@ -22,20 +22,11 @@
     "compatibleRange": "^1.1.1",
     "dashboardPanels": [
       {
-        "name": "ehud",
-        "title": "Ehud",
+        "name": "essential-score",
+        "title": "Essential Score",
         "file": "ehud.html",
-        "fullbleed": false,
-        "width": 4,
+        "fullbleed": true,
         "headerColor": "#525F78"
-      },
-      {
-        "name": "masterOverlay",
-        "title": "masterOverlay",
-        "file": "masterOverlay.html",
-        "fullbleed": false,
-        "width": 4,
-        "headerColor": "#444444"
       }
 
 
