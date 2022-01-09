@@ -50,3 +50,50 @@ body {
     bottom: 54px;
     align-items: center;
 }
+
+
+.scoreBox1{
+    position: absolute;
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    height: 56px;
+    width: 50px;
+    text-align: center;
+    top:0px;
+    left: 811px;
+}
+.scoreBox2{
+    position: absolute;
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    height: 56px;
+    width: 50px;
+    text-align: center;
+    top:0px;
+    left: 1059px;
+}
+
+.nameTag1{
+    position: absolute;
+    background-color: lightblue;
+    left: 0px;
+    top: 0px;
+    height: 56px;
+    width: 811px;
+    text-align: right;
+    font-size: 56px;
+
+}
+
+.nameTag2{
+    position: absolute;
+    background-color: firebrick;
+    left: 1109px;
+    top: 0px;
+    height: 56px;
+    width: 811px;
+    text-align: left;
+    font-size: 56px;
+}
