@@ -97,3 +97,15 @@ body {
     text-align: left;
     font-size: 56px;
 }
+
+
+/*LOGS DISPLAY STYLES START*/
+
+.bluLOGS{
+    background-color: lightblue;
+    border: ridge;
+}
+.redLOGS{
+    background-color: firebrick;
+    border: ridge;
+}

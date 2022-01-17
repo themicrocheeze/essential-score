@@ -32,15 +32,16 @@
 	</style>
 </head>
 <body>
-	<p>Welcome to the Essentials Hud Scoreboard overlay, created by Themicrocheeze</p>
+	<p>Welcome to essential-score, created by Themicrocheeze</p>
 
 
 	<div class="scoreControls">
 		<h3>SCORE CONTROLS</h3>
-		<button class="buttonStyle1" onclick="scoreTeam1()">ADD 1 to BLUE TEAM</button>
-		<button class="buttonStyle1" onclick="scoreTeam2()">ADD 1 to RED TEAM</button><br/>
-		<button class="buttonStyle1" onclick="minusScoreTeam1()">REMOVE 1 FROM BLUE TEAM</button>
-		<button class="buttonStyle1" onclick="minusScoreTeam2()">REMOVE 1 FROM RED TEAM</button><br/>
+		<h6>Score the current map</h6>
+		<button class="buttonStyle1" onclick="scoreTeam1()">BLU + 1</button>
+		<button class="buttonStyle1" onclick="scoreTeam2()">RED + 1</button><br/>
+		<button class="buttonStyle1" onclick="minusScoreTeam1()">BLU - 1</button>
+		<button class="buttonStyle1" onclick="minusScoreTeam2()">RED - 1</button><br/>
 		<button class="buttonStyle2" onclick="resetScoreboard()">RESET THE SCOREBOARD</button>
 
 
@@ -49,14 +50,21 @@
 		<hr/>
 		<br/>
 		<br/>
-
+		<h3>Series Score Controls</h3>
+		<h6>Score for the entire series</h6>
+		<button class="buttonStyle1" onclick="seriesTeam1()">BLU + 1</button>
+		<button class="buttonStyle1" onclick="seriesTeam2()">RED + 1</button><br/>
+		<button class="buttonStyle1" onclick="minusSeriesTeam1()">BLU - 1</button>
+		<button class="buttonStyle1" onclick="minusSeriesTeam2()">RED - 1</button><br/>
+		<button class="buttonStyle2" onclick="resetSeries()">RESET THE SERIES</button>
+<!--
 		<h3>TEAM NAME CONTROLS</h3>
         TEAM 1's NAME: <input id="team1nameinput" type="text">
         <br/>
 		<br/>
         TEAM 2's NAME: <input id="team2nameinput" type="text"> 
 		<br>
-		<button id="nameButton"  onclick="setTeamNames()">SET TEAM NAMES</button>
+		<button id="nameButton"  onclick="setTeamNames()">SET TEAM NAMES</button>-->
 	</div>
 
 

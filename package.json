@@ -22,10 +22,19 @@
     "compatibleRange": "^1.1.1",
     "dashboardPanels": [
       {
+        "name": "master-overlay",
+        "title": "Master Overlay",
+        "file": "masterOverlay.html",
+        "fullbleed": false,
+        "width": "4",
+        "headerColor": "#525F78"
+      },
+      {
         "name": "essential-score",
         "title": "Essential Score",
         "file": "ehud.html",
-        "fullbleed": true,
+        "fullbleed": false,
+        "width": "4",
         "headerColor": "#525F78"
       }
 
