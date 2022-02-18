@@ -43,3 +43,32 @@ function minusScoreTeam2(){
             return;
         }
 }
+
+//Functions for series controls
+function seriesTeam1(){
+	team1seriesRep.value++;
+}
+
+function minusSeriesTeam1(){
+    if (team1Rep.value > 0){
+	team1seriesRep.value--;
+    }
+    else{
+        return;
+    }
+
+}
+
+function seriesTeam2(){
+	team2seriesRep.value++;
+}
+
+function minusSeriesTeam2(){
+    if (team2Rep.value > 0){
+	team2seriesRep.value--;
+    }
+    else{
+        return;
+    }
+
+}
