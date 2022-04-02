@@ -16,7 +16,7 @@ body {
     left: 0px;
     width: 863px;
     height: 56px;
-    background-color: #375c79;
+    background-color: #4bdae1;
     text-align: right;
 
 }
@@ -27,7 +27,7 @@ body {
     left: 1057px;
     width: 863px;
     height: 56px;
-    background-color: #9f2e2e;
+    background-color: #e1524b;
     text-align: left;
     
 
@@ -56,9 +56,9 @@ body {
     position: absolute;
     color: white;
     background-color: black;
-    font-size: 50px;
+    font-size: 48px;
     height: 56px;
-    width: 50px;
+    width: 56px;
     text-align: center;
     top:0px;
     left: 811px;
@@ -67,35 +67,37 @@ body {
     position: absolute;
     color: white;
     background-color: black;
-    font-size: 50px;
+    font-size: 48px;
     height: 56px;
-    width: 50px;
+    width: 56px;
     text-align: center;
     top:0px;
-    left: 1059px;
+    left: 1053px;
 }
 
 .nameTag1{
     position: absolute;
-    background-color: #375c79;
+    background-color: #4bdae1;
     left: 0px;
     top: 0px;
     height: 56px;
     width: 811px;
-    text-align: right;
-    font-size: 56px;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Ubuntu', sans-serif;
 
 }
 
 .nameTag2{
     position: absolute;
-    background-color: #9f2e2e;
+    background-color: #e1524b;
     left: 1109px;
     top: 0px;
     height: 56px;
     width: 811px;
-    text-align: left;
-    font-size: 56px;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
