@@ -21,10 +21,11 @@ team2Rep.on("change", (newVal) => {
   team2El.innerHTML = newVal;
 });
 
+/*
 team1seriesRep.on("change", (newVal) => {
   team1sEl.innerHTML = newVal;
 });
 
 team2seriesRep.on("change", (newVal) => {
   team2sEl.innerHTML = newVal;
-});
+});*/

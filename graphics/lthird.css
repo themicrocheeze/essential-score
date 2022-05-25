@@ -1,0 +1,8 @@
+.lboxone{
+    position: fixed;
+    width: 1792px;
+    height: 100px;
+    top: 900px;
+    left: 64px;
+    background-color: firebrick;
+}

@@ -23,16 +23,18 @@
     "dashboardPanels": [
       {
         "name": "master-overlay",
-        "title": "Master Overlay",
+        "title": "Team Info",
         "file": "masterOverlay.html",
+        "workspace": "Essential Score",
         "fullbleed": false,
         "width": "4",
         "headerColor": "#525F78"
       },
       {
         "name": "essential-score",
-        "title": "Essential Score",
+        "title": "Scoreboard",
         "file": "ehud.html",
+        "workspace": "Essential Score",
         "fullbleed": false,
         "width": "4",
         "headerColor": "#525F78"
@@ -43,6 +45,11 @@
     "graphics": [
       {
         "file": "scoarboard.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "lthird.html",
         "width": 1920,
         "height": 1080
       }
