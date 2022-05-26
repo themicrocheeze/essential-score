@@ -1,6 +1,6 @@
 {
   "name": "essential-score",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "a scoreboard for essentialsHud",
   "homepage": "",
   "author": {
@@ -38,6 +38,15 @@
         "fullbleed": false,
         "width": "4",
         "headerColor": "#525F78"
+      },
+      {
+        "name": "roster-lineups",
+        "title": "Roster Lineups",
+        "file": "teamLinupsDash.html",
+        "workspace": "Essential Score",
+        "fullbleed": false,
+        "width": "2",
+        "headerColor": "#525F78"
       }
 
 
@@ -45,6 +54,11 @@
     "graphics": [
       {
         "file": "scoarboard.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "rosterLineups.html",
         "width": 1920,
         "height": 1080
       },

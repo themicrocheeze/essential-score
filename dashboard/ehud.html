@@ -2,34 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-	<style>
-		.monospace {
-			font-family: monospace;
-		}
-
-
-		.scoreControls {
-			background-color: white;
-			color: black;
-			border: thistle;
-			border-radius: 10% 10% 10% 10%;
-
-			padding: 25px;
-		}
-
-		.buttonStyle1{
-			background-color: lightgreen;
-			padding: 15px 32px;
-		}
-		.buttonStyle2{
-			background-color: firebrick;
-		}
-
-		body{
-			text-align: center;
-		}
-
-	</style>
 </head>
 <body>
 	<div class="scoreControls">
@@ -40,13 +12,8 @@
 		<button class="buttonStyle1" onclick="minusScoreTeam1()">BLU - 1</button>
 		<button class="buttonStyle1" onclick="minusScoreTeam2()">RED - 1</button><br/>
 		<button class="buttonStyle2" onclick="resetScoreboard()">RESET THE SCOREBOARD</button>
-
-
-		<br/>
-		<br/>
-		<hr/>
-		<br/>
-		<br/>
+		
+		<!--<hr/>
 		<h3>Series Score Controls</h3>
 		<h4>NOT YET FUNCTIONAL</h4>
 		<h6>Score for the entire series</h6>
@@ -55,26 +22,11 @@
 		<button class="buttonStyle1" onclick="minusSeriesTeam1()">BLU - 1</button>
 		<button class="buttonStyle1" onclick="minusSeriesTeam2()">RED - 1</button><br/>
 		<button class="buttonStyle2" onclick="resetSeries()">RESET THE SERIES</button>
-<!--
-		<h3>TEAM NAME CONTROLS</h3>
-        TEAM 1's NAME: <input id="team1nameinput" type="text">
-        <br/>
-		<br/>
-        TEAM 2's NAME: <input id="team2nameinput" type="text"> 
-		<br>
-		<button id="nameButton"  onclick="setTeamNames()">SET TEAM NAMES</button>-->
+		-->
 	</div>
 
 
 	<script src="score.js"></script>
 	<script src="teamNamesdash.js"></script>
-
-	<script>
-		document.getElementById('path').textContent = `nodecg${window.location.pathname}`;
-
-		// You can access the NodeCG api anytime from the `window.nodecg` object
-		// Or just `nodecg` for short. Like this!:
-		nodecg.log.info('Here\'s an example of using NodeCG\'s logging API!');
-	</script>
 </body>
 </html>

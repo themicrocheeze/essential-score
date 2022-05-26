@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.rosterlineup_base{
+    background-color: lightslategray;
+    position: fixed;
+    width: 1408px;
+    height: 742px;
+    left: 256px;
+    top: 169px;
+}
+
+.rosterlineup_header{
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.theblueside{
+    width: 704px;
+    height: 678px;
+    padding: 0px;
+    margin: 0px;
+    left: 256px;
+    top: 233px;
+    position: fixed;
+}
+
+.theblueside p{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.theredside{
+    position: fixed;
+    width: 704px;
+    height: 678px;
+    left: 960px;
+    top: 233px;
+}
+
+.theredside p{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+
+.blue_team_roster{
+    background-color: blue;
+    width: 704px;
+    height: 48px;
+    position: fixed;
+    left: 256px;
+    top: 209px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 32px;
+}
+.red_team_roster{
+    background-color: blue;
+    width: 704px;
+    height: 48px;
+    left: 959px;
+    top: 209px;
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.bp{
+    animation-name: roster_name_fadeins;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+    opacity: 0;
+}
+
+
+/* ANIMATIONS */
+@keyframes roster_name_fadeins {
+    from {opacity: 0; background-color: white;}
+    to {opacity: 1; background-color: black;}
+}
