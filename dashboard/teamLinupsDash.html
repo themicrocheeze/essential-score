@@ -24,36 +24,45 @@
         .buttonStyle2 {
             background-color: firebrick;
         }
+
+        table{
+            border: 1px;
+            border-style: ridge;
+        }
+        td{
+            border: 3px;
+            border-width: 3px;
+            border-style: dashed;
+        }
     </style>
 </head>
 
 <body>
-    <div>
-        <div>
-            <h4>Red Team</h4>
-            Pocket Scout:<br /> <input type="text" id="redPlayer1" /><br />
-            Flank Scout:<br /> <input type="text" id="redPlayer2" /><br />
-            Pocket Solider:<br /> <input type="text" id="redPlayer3" /><br />
-            Flank Solider:<br /> <input type="text" id="redPlayer4" /><br />
-            Demo:<br /> <input type="text" id="redPlayer5" /><br />
-            Medic:<br /> <input type="text" id="redPlayer6" /><br />
+    <table>
+        <tr>
+            <td style="background-color: tomato;">
+                <h4>Red Team</h4>
+                Pocket Scout:<br /> <input type="text" id="redPlayer1" /><br />
+                Flank Scout:<br /> <input type="text" id="redPlayer2" /><br />
+                Pocket Solider:<br /> <input type="text" id="redPlayer3" /><br />
+                Flank Solider:<br /> <input type="text" id="redPlayer4" /><br />
+                Demo:<br /> <input type="text" id="redPlayer5" /><br />
+                Medic:<br /> <input type="text" id="redPlayer6" /><br />
+            </td>
 
+            <td style="background-color: steelblue;">
+                <h4>Blu Team</h4>
+                Pocket Scout: <br /> <input type="text" id="bluePlayer1" /><br />
+                Flank Scout: <br /> <input type="text" id="bluePlayer2" /><br />
+                Pocket Solider:<br /> <input type="text" id="bluePlayer3" /><br />
+                Flank Solider: <br /> <input type="text" id="bluePlayer4" /><br />
+                Demo: <br /> <input type="text" id="bluePlayer5" /><br />
+                Medic: <br /> <input type="text" id="bluePlayer6" /><br />
 
+            </td>
+        </tr>
+    </table>
 
-        </div>
-        <div>
-            <h4>Blu Team</h4>
-            Pocket Scout: <br /> <input type="text" id="bluePlayer1" /><br />
-            Flank Scout: <br /> <input type="text" id="bluePlayer2" /><br />
-            Pocket Solider:<br /> <input type="text" id="bluePlayer3" /><br />
-            Flank Solider: <br /> <input type="text" id="bluePlayer4" /><br />
-            Demo: <br /> <input type="text" id="bluePlayer5" /><br />
-            Medic: <br /> <input type="text" id="bluePlayer6" /><br />
-
-
-
-        </div>
-    </div>
     <button id="TeamRosters" onclick="setTeamRosters()">Set Team Rosters</button>
 
     <script src="teamLinups.js"></script>

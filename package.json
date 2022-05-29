@@ -1,12 +1,12 @@
 {
   "name": "essential-score",
   "version": "0.0.8",
-  "description": "a scoreboard for essentialsHud",
+  "description": "A scoreboard for Team Fortress 2",
   "homepage": "",
   "author": {
     "name": "Themicrocheeze",
     "email": "themicrocheez@gmail.com",
-    "url": "themicrocheeze.neocities.org"
+    "url": "https://themicrocheeze.neocities.org"
   },
   "files": [
     "dashboard",
@@ -27,7 +27,7 @@
         "file": "masterOverlay.html",
         "workspace": "Essential Score",
         "fullbleed": false,
-        "width": "4",
+        "width": "2",
         "headerColor": "#525F78"
       },
       {
@@ -36,7 +36,7 @@
         "file": "ehud.html",
         "workspace": "Essential Score",
         "fullbleed": false,
-        "width": "4",
+        "width": "2",
         "headerColor": "#525F78"
       },
       {
@@ -45,7 +45,7 @@
         "file": "teamLinupsDash.html",
         "workspace": "Essential Score",
         "fullbleed": false,
-        "width": "2",
+        "width": "3",
         "headerColor": "#525F78"
       }
 
@@ -66,6 +66,13 @@
         "file": "lthird.html",
         "width": 1920,
         "height": 1080
+      }
+    ],
+    "assetCategories": [
+      {
+      "name": "teamLogos",
+      "title": "Team Logos",
+      "allowedTypes": ["jpg", "jpeg", "png"]
       }
     ]
   },

@@ -82,12 +82,12 @@ body{
     animation-name: roster_name_fadeins;
     animation-fill-mode: forwards;
     animation-delay: 5s;
-    opacity: 0;
+/*    opacity: 0;*/
 }
 
 
 /* ANIMATIONS */
-@keyframes roster_name_fadeins {
+/*@keyframes roster_name_fadeins {
     from {opacity: 0; background-color: white;}
     to {opacity: 1; background-color: black;}
-}
+}*/
