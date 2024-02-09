@@ -1,5 +1,5 @@
-# Essential Score
-A nodeCG overlay and scoreboard for teamfortress 2 and EssentialsHUD.
+# Essential Score - RGB Edition
+A nodeCG overlay and scoreboard for teamfortress 2 and EssentialsHUD, modified for RGB 6.
 
 
 To use, simply mount in the bundles directory of your nodeCG instance
